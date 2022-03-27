@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #F9FAFB;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.component-wrapper {
+    border-bottom: 1px solid #E5E7EB;
+    padding: 0.5rem 1rem;
+}
+
+.component-wrapper-2 {
+    border-top: 1px solid #E5E7EB;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item {
+    margin: 0 1.15rem;
+}
+.nav-item .nav-link {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nav-title-brand {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #374151;
+    user-select: none;
+}
+
+.nav-helper img {
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 50%;
+    border: 2px solid #374151;
+}
+
+.nav-helper span {
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin-left: 5px;
+}
+
+.form-book {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.rounded-2xl {
+    border-radius: 1.15rem;
+}
+.rounded-xl {
+    border-radius: 0.875rem;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.btn-search {
+    background-color:#ffc107;
+    padding: 0.5rem 1rem;
+    transition: .4s;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.875rem;
+}
+
+.btn-search:hover {
+    background-color: #FEC671;
+}
+
+.btn-search:focus {
+    box-shadow: none;
+}
+
+.shadow-bar {
+    box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.05);
+}
+
+main {
+    padding-top: 6rem;
+    height: 100vh;
+}
+
+.card-custom {
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.line {
+    width: 150px;
+}
+
+.card-book {
+    background: url('../assets/Firework.png') no-repeat right;
+    background-size: cover;
+}
+
+.text-form {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #374151;
+}
+
+.btn-custom {
+    padding: 0.775rem 0;
+}
+
+.text-yellow {
+    color: #FEC671;
+}
+
+label {
+    font-size: 12px;
+}
+
+.title-card-list {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #374151;
+}
+
+.bookTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #374151;
+}
+
+.bookAuthor {
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+
+.bookYear {
+    font-size: 14px;
+    color: gray;
+    font-weight: 600;
+}
+
+.bookYear::before,
+.bookYear::after {
+    content: " - ";
+}
